@@ -1,0 +1,385 @@
+header {
+  width: 100%;
+  height: 60px;
+}
+header #headerLogo {
+  margin-top: 22px;
+}
+header #navlist {
+  margin-top: 40px;
+  float: right;
+}
+header #navlist li {
+  display: inline;
+  list-style-type: none;
+  padding-left: 10px;
+}
+header #navlist li a {
+  font-size: 13px;
+  color: #c3c3c2;
+  font-family: "proxima-nova",sans-serif;
+  font-style: normal;
+  font-weight: 500;
+}
+header #navlist li a:hover {
+  color: #17619b;
+}
+
+section#heroBox {
+  height: 430px;
+  width: 100%;
+  background: url("http://d3oa5hmchzkfx0.cloudfront.net/assets/pages/hero-effect.jpg") no-repeat center center #01011d;
+  border-top: 2px solid #1e7dc7;
+  border-bottom: 2px solid #1e7dc7;
+}
+
+section#heroBoxSmall {
+  height: 300px;
+  width: 100%;
+  background: url("http://d3oa5hmchzkfx0.cloudfront.net/assets/pages/hero-small.png") no-repeat center center #060606;
+  text-align: center;
+  border-top: 2px solid #1e7dc7;
+  border-bottom: 2px solid #1e7dc7;
+}
+section#heroBoxSmall #smallMainMessageTitle {
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-top: 80px;
+  font-family: "proxima-nova",sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  color: white;
+  line-height: 25px;
+}
+section#heroBoxSmall #smallMainMessageContent {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 20px;
+  font-family: "proxima-nova",sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 14px;
+  color: white;
+  line-height: 15px;
+}
+
+section#mainMessageAndComments {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 100%;
+  background: url("http://d3oa5hmchzkfx0.cloudfront.net/assets/pages/sketchs.png") repeat-x left center white;
+}
+section#mainMessageAndComments #mainMessageTitle {
+  font-family: "proxima-nova",sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  color: #17619b;
+  font-size: 20px;
+  line-height: 25px;
+}
+section#mainMessageAndComments #mainMessageContent {
+  font-family: "proxima-nova",sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #8f8f8f;
+  font-size: 14px;
+  line-height: 20px;
+}
+section#mainMessageAndComments #mainMessageClient {
+  margin-top: 10px;
+}
+section#mainMessageAndComments #mainMessageClient #mainMessageClientImgCircular {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70px;
+  height: 70px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-border-radius: 99em;
+  -moz-border-radius: 99em;
+  border-radius: 99em;
+  border: 3px solid #c6c6c6;
+}
+section#mainMessageAndComments #mainMessageClient #mainMessageClientContent {
+  text-align: center;
+  font-size: 14px;
+  line-height: 15px;
+  color: #8f8f8f;
+  font-family: "proxima-nova",sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+section#mainMessageAndComments #mainMessageClient #mainMessageClientContent span#mainMessageClientName {
+  font-size: 13px;
+  font-family: "proxima-nova",sans-serif;
+  font-style: normal;
+  font-weight: 600;
+}
+
+section#mainServices {
+  border-top: 1px solid #5e5e5b;
+  border-bottom: 1px solid #5e5e5b;
+  padding-top: 80px;
+  padding-bottom: 40px;
+  background-color: #17619b;
+  width: 100%;
+}
+section#mainServices #mainServicesText {
+  margin-bottom: 50px;
+}
+section#mainServices #mainServicesText #mainServicesTitle {
+  font-family: "proxima-nova",sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #fff;
+  font-size: 18px;
+}
+section#mainServices #mainServicesText #mainServicesDecription {
+  margin-top: 10px;
+  font-family: "proxima-nova",sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  color: #fff;
+  font-size: 15px;
+  margin-bottom: 20px;
+  line-height: 18px;
+}
+section#mainServices .mainServiceArticle {
+  text-align: left;
+  margin-bottom: 50px;
+}
+section#mainServices .mainServiceArticle .circle {
+  display: block;
+  height: 300px;
+  background-color: #fff;
+  border: 4px solid #10456f;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+}
+section#mainServices .mainServiceArticle .circle .mainServiceArticleImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+section#mainServices .mainServiceArticle .circle .studioIcon {
+  margin-top: 15px;
+}
+section#mainServices .mainServiceArticle .circle .documentIcon {
+  margin-top: 10px;
+}
+section#mainServices .mainServiceArticle .circle .rescueIcon {
+  margin-top: 18px;
+}
+section#mainServices .mainServiceArticle .circle .printingIcon {
+  margin-top: 18px;
+}
+section#mainServices .mainServiceArticle .circle .specialsIcon {
+  margin-top: 18px;
+}
+section#mainServices .mainServiceArticle .circle .bussinessIcon {
+  margin-top: 20px;
+}
+section#mainServices .mainServiceArticle .mainServiceContent {
+  margin-top: 20px;
+}
+section#mainServices .mainServiceArticle .mainServiceContent .serviceTitle {
+  color: #fff;
+  font-size: 15px;
+  font-family: "proxima-nova",sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+section#mainServices .mainServiceArticle .mainServiceContent .mainServiceArticleDescription {
+  color: #fff;
+  line-height: 15px;
+  font-size: 13px;
+  font-family: "proxima-nova",sans-serif;
+  font-style: normal;
+  font-weight: 100;
+}
+
+section#mainContact {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+section#mainContact #mainContactText {
+  font-family: "proxima-nova",sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 18px;
+  line-height: 23px;
+  margin-bottom: 30px;
+}
+section#mainContact #mainContactFeatureText {
+  color: #2a2a29;
+  font-size: 18px;
+  font-family: "proxima-nova",sans-serif;
+  font-style: normal;
+  font-weight: 900;
+}
+section#mainContact #mainContactFeatureText #mainContantButton {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #17619b;
+  border: 1px solid #fff;
+  font-family: "proxima-nova",sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #fff;
+}
+@media only screen and (min-width: 768px) {
+  section#mainContact #mainContactFeatureText #mainContantButton {
+    margin-left: 10px;
+  }
+}
+section#mainContact #mainContactFeatureText #mainContantButton:hover {
+  background-color: #1e7dc7;
+}
+
+section#footer {
+  border-top: 1px dashed gainsboro;
+  border-bottom: 1px dashed gainsboro;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #f6f6f5;
+}
+section#footer #footerTitle {
+  color: #444442;
+  font-family: "proxima-nova",sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+}
+section#footer .footerSubTitle {
+  color: #5e5e5b;
+  font-family: "proxima-nova",sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+}
+section#footer .footerAddress {
+  font-size: 13px;
+  font-family: "proxima-nova",sans-serif;
+  font-style: normal;
+  font-weight: 100;
+}
+@media only screen and (max-width: 768px) {
+  section#footer .footerAddress {
+    margin-left: 10px;
+    font-size: 12px;
+  }
+}
+section#footer .footerAddress a {
+  color: #000;
+}
+section#footer .footerAddress a:hover {
+  color: #1e7dc7;
+  text-decoration: underline;
+}
+section#footer p.footerPhones {
+  font-size: 13px;
+  font-family: "proxima-nova",sans-serif;
+  font-style: normal;
+  font-weight: 100;
+}
+section#footer .footerCityCountry {
+  color: #5e5e5b;
+  font-family: "proxima-nova",sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+}
+section#footer #footerEmail {
+  font-size: 13px;
+  font-family: "proxima-nova",sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #5e5e5b;
+  text-decoration: underline;
+}
+section#footer #footerEmail:hover {
+  color: #1e7dc7;
+}
+section#footer #copyCarmary {
+  font-size: 12px;
+  color: #9d9d9b;
+}
+section#footer #socialLinks {
+  display: inline-block;
+}
+section#footer #socialLinks .socialLinks {
+  float: left;
+  margin-right: 5px;
+}
+section#footer #socialLinks #twitterLink {
+  background: url("http://d3oa5hmchzkfx0.cloudfront.net/assets/path/social-sprint.png") no-repeat 0 0;
+  width: 30px;
+  height: 31px;
+}
+section#footer #socialLinks #twitterLink:hover {
+  background: url("http://d3oa5hmchzkfx0.cloudfront.net/assets/path/social-sprint.png") no-repeat 0 -36px;
+  width: 30px;
+  height: 31px;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
+  section#footer #socialLinks #twitterLink {
+    background: url("http://d3oa5hmchzkfx0.cloudfront.net/assets/path/social-sprint@2x.png") no-repeat 0 -1px;
+    width: 60px;
+    height: 60px;
+  }
+}
+section#footer #socialLinks #facebookLink {
+  background: url("http://d3oa5hmchzkfx0.cloudfront.net/assets/path/social-sprint.png") no-repeat -43px 0;
+  width: 30px;
+  height: 31px;
+}
+section#footer #socialLinks #facebookLink:hover {
+  background: url("http://d3oa5hmchzkfx0.cloudfront.net/assets/path/social-sprint.png") no-repeat -43px -36px;
+  width: 30px;
+  height: 31px;
+}
+section#footer #socialLinks #google-plusLink {
+  background: url("http://d3oa5hmchzkfx0.cloudfront.net/assets/path/social-sprint.png") no-repeat -86px -1px;
+  width: 30px;
+  height: 30px;
+}
+section#footer #socialLinks #google-plusLink:hover {
+  background: url("http://d3oa5hmchzkfx0.cloudfront.net/assets/path/social-sprint.png") no-repeat -86px -37px;
+  width: 30px;
+  height: 31px;
+}
+
+section#footerCopyright {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #5e5e5b;
+  font-family: "proxima-nova",sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 12px;
+  line-height: 20px;
+}
+section#footerCopyright #designerLink {
+  font-family: "proxima-nova",sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #5e5e5b;
+  text-decoration: underline;
+}
+section#footerCopyright #designerLink:hover {
+  color: #1e7dc7;
+}
